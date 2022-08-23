@@ -17,7 +17,7 @@ function Exam2() {
         console.log(data);
         */
        //setCounter(counter + 1);
-       setCounter( preVal => preVal + 1 );
+        setCounter( preVal => preVal + 1 );
     }
 
     return (

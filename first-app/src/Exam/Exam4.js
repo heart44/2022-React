@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Button from './Button';
 import './Exam3.css';
 
-export default function Exam3() {
+export default function Exam4() {
     const [ val, setVal ] = useState(10);
     return (
         <div>
