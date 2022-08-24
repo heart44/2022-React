@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 // import Exam1 from './Exam/Exam1';
 // import Exam2 from './Exam/Exam2';
 // import Exam3 from './Exam/Exam3';
@@ -10,13 +10,13 @@ import './index.css';
 // import Exam6 from './Exam/Exam6';
 // import TodoApp from './TodoApp';
 // import CoinTracker from './CoinTracker';
-import MovieApp from './MovieApp';
+// import MovieApp from './MovieApp';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MovieApp />
+    <App />
   </React.StrictMode>
 );
 
