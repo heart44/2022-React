@@ -9,13 +9,14 @@ import './index.css';
 // import Exam5 from './Exam/Exam5';
 // import Exam6 from './Exam/Exam6';
 // import TodoApp from './TodoApp';
-import CoinTracker from './CoinTracker';
+// import CoinTracker from './CoinTracker';
+import MovieApp from './MovieApp';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CoinTracker />
+    <MovieApp />
   </React.StrictMode>
 );
 
